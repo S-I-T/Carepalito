@@ -1,0 +1,63 @@
+{
+  "nombre":"Carepalo",
+  "fechaNacimiento":"2017-02-02T11:42:00-03:00",
+  "sentidos":{
+    "audicion":{
+      "habilitado":true,
+      "sonus":{ "hotwords": [{ "file": "./res/carepalo.pmdl", "hotword": "carepalo" }] ,
+                                 "language":"es-CL",
+                                 "recordProgram":"rec"
+                               },
+       "comandos":[
+         {"comando":["detener","detente","stop","finaliza","finalizar"],"accion":"detieneCancion","habla":"Listo"}
+       ]
+    },
+    "habla":{
+      "habilitado":true,
+      "lenguaje":"es-ES",
+      "audios":{
+        "dong":"./res/dong.wav"
+      }
+    },
+    "cara":{
+      "habilitado":true,
+      "directorioUI":"./cara/",
+      "pins":[35,36,38,40],
+      "caras":{"0":"face","1":"face","2":"face2"}
+    },
+    "vision":{
+      "habilitado":false,
+      "scriptDeteccionRostros":"./sentidos/deteccion-rostros/deteccion-rostros.py",
+      "pinServo":33
+    },
+    "motor":{
+      "habilitado":false
+    }
+  },
+  "acciones":{
+    "prendeLuz":{
+      "ip":"192.168.1.206",
+      "salidas":{"1":12,"2":13}
+    }
+
+  },
+  "credenciales":{
+    "googleCloud":{
+      "projectId":"<Inserte aqui su proyecto de Google Cloud>",
+      "keyFilename":"<Inserte aqui su archivo de credencial de Google Cloud>"
+    },
+    "apiai":{
+      "token":"<Inserte aqui su token de API.ai>",
+      "language":"es"
+    },
+    "googleapis":{
+      "token": "<Inserte aqui su token de Google APIs>"
+    }
+  },
+  "camara":{
+    "verticalFlip":false
+  },
+  "log":{
+    "level":"error"
+  }
+}

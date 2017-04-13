@@ -1,0 +1,35 @@
+{
+  "name": "carepalito",
+  "version": "1.0.0",
+  "description": "Robot asistente personal en español open source desarrollado en chile para el mundo con amor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --debug "
+  },
+  "keywords": [
+    "robot",
+    "asistente",
+    "personal"
+  ],
+  "author": "SIT",
+  "license": "MIT",
+  "dependencies": {
+    "node-record-lpcm16": "^0.2.0",
+    "ss-logger": "^1.0.7",
+    "snowboy":"^1.1.0",
+    "@google-cloud/speech": "^0.7.0",
+    "@google-cloud/vision":"^0.10.0",
+    "@google-cloud/translate": "^0.7.0",
+    "apiai": "^3.0.3",
+    "node-aplay": "^1.0.3",
+    "sonus": "^0.1.5",
+    "better-queue":"^3.8.5",
+    "picotts": "^0.1.1",
+    "player":"^0.6.1",
+    "ws":"^2.2.1",
+    "express":"^4.15.2",
+    "node-raspistill":"^0.0.9",
+    "rpio":"^0.9.16",
+    "yql":"^1.0.2"
+  }
+}

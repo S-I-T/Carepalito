@@ -1,0 +1,191 @@
+body {
+    overflow:hidden;
+}
+
+.App {
+  text-align: center;
+}
+.face{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    background-color: black;
+}
+
+.face .left{
+    margin-left:-460px;
+}
+.face .right{
+    margin-left:100px;
+}
+.face .lid{
+    position:absolute;
+    width:320px;
+    height: 320px;
+    top: 50%;
+    left: 50%;
+    margin-top: -290px;
+    z-index: 10;
+    background-image:url(images/eyelid.png);
+}
+
+.face .eye{
+    position:absolute;
+    width:320px;
+    height: 320px;
+    top: 50%;
+    left: 50%;
+    margin-top: -290px;
+    background-image:url(images/eye.png);
+}
+
+.face .eye .pupil{
+    position:relative;
+    width:70px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+    background-image:url(images/pupil.png);
+    background-repeat: no-repeat;
+}
+
+.face .mouth{
+    position:absolute;
+    width:420px;
+    height: 160px;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -210px;
+    background-image:url(images/mouth.png);
+}
+
+.face .mouthSpeaking{
+    background-image:url(images/bg-mouth.png);
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    margin-left: -125px;
+    border-radius: 30px;
+}
+
+.face .mic{
+  position: absolute;
+  left:10px;
+  bottom: 10px;
+  color:white;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.face .music{
+  position: absolute;
+  left:10px;
+  bottom: 10px;
+  color:white;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+
+.face2{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    background-image:url(images/bg3.jpg);
+}
+
+.face2 .left{
+    margin-left:-400px;
+    background-image:url(images/eye_l3.png);
+}
+.face2 .right{
+    margin-left:80px;
+    background-image:url(images/eye_r3.png);
+}
+.face2 .lid{
+    position:absolute;
+    width:320px;
+    height: 320px;
+    top: 50%;
+    left: 50%;
+    margin-top: -240px;
+    z-index: 10;
+}
+
+.face2 .lid.left{
+  background-image:url(images/eyelid_l3.png);
+}
+.face2 .lid.right{
+  background-image:url(images/eyelid_r3.png);
+}
+
+.face2 .eye{
+    position:absolute;
+    width:320px;
+    height: 320px;
+    top: 50%;
+    left: 50%;
+    margin-top: -240px;
+    /*background-image:url(images/eye2.png);*/
+}
+
+.face2 .eye .pupil{
+    position:relative;
+    width:70px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+    /*background-image:url(images/pupil2.png);
+    background-repeat: no-repeat;*/
+}
+
+.face2 .mouth{
+    position:absolute;
+    width:420px;
+    height: 160px;
+    bottom: 3%;
+    left: 50%;
+    margin-left: -210px;
+    background-image:url(images/mouth3.png);
+}
+
+.face2 .mouthSpeaking{
+    background-color:black;
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    bottom: 18%;
+    left: 50%;
+    margin-left: -125px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+
+.face2 .mic{
+  position: absolute;
+  left:10px;
+  bottom: 10px;
+  color:black;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.face2 .music{
+  position: absolute;
+  left:10px;
+  bottom: 10px;
+  color:black;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
